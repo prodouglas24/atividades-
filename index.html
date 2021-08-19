@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<head>
+	<title>Modelo de Grid</title>
+	
+<style>
+.body {
+		width:100%;
+		font-family:arial;
+		color: #000;
+		background-color: aqua;
+		}
+
+    .container1{
+    	display: grid;
+    	text-align: center;
+    	width: 40%;
+    	height: 500px;
+    	background-color: blue;
+    	border:2px solid black;
+    	margin-top: 1%;
+    }
+	
+    	  .container2{
+    	text-align: center;
+    	width: 50%;
+    	height: 200px;
+    	background-color: red;
+    	border:2px solid black;
+    	margin-top:-30%;
+    	margin-left: 45%;
+    	background-image: linear-gradient( to right, blue,LightSkyBlue);
+    
+    }
+
+	.container3{
+    	text-align: center;
+		font-style: italic;
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		font-size: 32px;
+		width: 50%;
+    	height: 200px;
+    	border:2px solid black;
+    	margin-top: 5%;
+    	margin-left: 45%;
+		
+    }
+#mostrar{
+  display: none;
+
+}
+
+#passar_mouse:hover #mostrar{
+  display:block;
+  
+  }
+#passar_mouse{
+	margin-top: 10px;
+}
+
+</style>
+
+
+</head>
+<body bgcolor="LightSkyBlue">
+	<div class="container1">
+		<div></br></br></br></br></br></br></br></br></br></br></br></br></br>ITEM 1</div>
+</div>
+	
+
+<div class="container2">
+	<div></br></br></br></br></br></div>ITEM 2</div></div>
+
+<div class="container3">
+	<div id="passar_mouse"><img src="img/azul.jpg" height="180px" width="200px">
+	<div id="mostrar"> </p>Muito obrigado por avaliar meu teste :) </div></div>
+</div>
+
+<app-root></app-root>
+</body>
